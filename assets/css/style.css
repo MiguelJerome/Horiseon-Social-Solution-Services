@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+ /*I regroup all rules for the header layout together.*/   
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -61,12 +62,15 @@ p {
     background-position: center;
 }
 
+ /*content is the parent of class 01, 02 ,03*/   
+/*I regroup all rules for the content layout together.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+ /*01 I regroup all rules for the search-engine-optimization layout together.*/ 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,6 +94,7 @@ p {
     margin-right: 25px;
 }
 
+ /*02 I regroup all rules for the online-reputation-management layout together.*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,7 +117,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*03 I regroup all rules for the social-media-marketing layout together.*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -131,6 +136,7 @@ p {
     max-height: 200px;
 }
 
+/*I regroup all rules for the benefits layout together.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -190,6 +196,7 @@ p {
     max-width: 150px;
 }
 
+/*I regroup all rules for the footer layout together.*/
 .footer {
     padding: 30px;
     clear: both;
